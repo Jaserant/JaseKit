@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* Основа фреймворка JaseKit от 30.03.2019 */
+/* Подключение стилей шрифтов */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese");
+/* Подключение стилей цветов */
+/* Цветовая схема фреймворка JaseKit от 30.03.2019 */
+/* Подключение стилей кнопок */
+a.button {
+  text-decoration: none; }
+
+a.button, input[type=button], input[type=submit], input[type=reset] {
+  padding: 0.5rem 1.75rem;
+  margin: 0.15rem;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  color: #404040;
+  text-align: center;
+  font-size: 16px;
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+  outline: 0 none !important; }
+
+a.button-danger, input.button-danger {
+  color: #fff;
+  background-color: #f15a5a;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer; }
+  a.button-danger:hover, input.button-danger:hover {
+    background-color: #f34c4c;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+a.button-warning, input.button-warning {
+  color: #fff;
+  background-color: #f0c419;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer; }
+  a.button-warning:hover, input.button-warning:hover {
+    background-color: #e3b606;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+a.button-success, input.button-success {
+  color: #fff;
+  background-color: #4eba6f;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer; }
+  a.button-success:hover, input.button-success:hover {
+    background-color: #44a561;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+a.button-info, input.button-info {
+  color: #fff;
+  background-color: #2d95Bf;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer; }
+  a.button-info:hover, input.button-info:hover {
+    background-color: #1685b2;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+a.button-footnote, input.button-footnote {
+  color: #fff;
+  background-color: #955ba5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer; }
+  a.button-footnote:hover, input.button-footnote:hover {
+    background-color: #8d3ea2;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+a.button-white, input.button-white {
+  color: #404040;
+  background-color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer; }
+  a.button-white:hover, input.button-white:hover {
+    background-color: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+a.button-dark, input.button-dark {
+  color: #fff;
+  background-color: #404040;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer; }
+  a.button-dark:hover, input.button-dark:hover {
+    background-color: #404040;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+a.button-disabled, input.button-disabled {
+  color: #404040;
+  background-color: #f1f1f1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: default; }
+  a.button-disabled:hover, input.button-disabled:hover {
+    background-color: #f1f1f1;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+a.round, input.round {
+  border-radius: 20px; }
+
+a.n-round, input.n-round {
+  border-radius: 0px; }
+
+/* Подключение стилей таблиц */
+.thead-regular > tr > th {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center; }
+
+.tbody-regular > tr > td > span {
+  margin: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  text-align: center; }
+
+/*# sourceMappingURL=jasekit.css.map */
